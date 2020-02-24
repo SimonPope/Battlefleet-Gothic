@@ -1,4 +1,8 @@
-
+/*Main 
+Initializes game and game objects
+Handles connections between two machines.
+Calls draw repeatedly 
+*/ 
 
 void setup() {
   size(1200, 600);
