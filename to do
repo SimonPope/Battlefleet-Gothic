@@ -1,0 +1,39 @@
+Processing
+
+Networked across 2 machines 
+
+
+Code screen border values early, left right top bottom 
+
+Battlefield needs to be scaled to screen
+Have battlefield position and screen position be independent (convert client side)
+Work out Processing full screen (preferably windowed borderless)
+
+Moving stuff
+Draw ship and background 
+Make ship clickable
+Implement arc of movement graphically 
+Implement mandatory moves 
+
+
+Gameplay stuff
+Create a main class that controls active player 
+Create player classes that own ships 
+Control phase and turn 
+
+
+Networking stuff 
+Make everything relevant serialisable 
+Give the game some way to track who the other client is and send through the whole instance of itself 
+
+Object stuff 
+Create a framework to create objects ie different ship sizes within that classes 
+Non ship objects movable and immovable, collidable and non collidable 
+
+
+
+
+
+Eventually implement a gui of ships alive to show what has and hasn’t moved. 
+
+Remember to complete all remaining mandatory moves at the end of movement.
