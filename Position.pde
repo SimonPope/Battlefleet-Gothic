@@ -23,11 +23,14 @@ class Position {
     this.gameY = y;
   }
   
-  public int getScreenX() {
-    return (int)(this.gameX * SCALE + BOARD_LEFT);
+  public float getScreenX() {
+    return this.gameX * SCALE + BOARD_LEFT;
   }
   
-  public int getScreenY() {
-    return (int)(this.gameY * SCALE + BOARD_TOP);
+  public float getScreenY() {
+    return this.gameY * SCALE + BOARD_TOP;
+  }
+  public PVector getScreenPosition(){
+    return new PVector(getScreenX(), getScreenY());
   }
 }
